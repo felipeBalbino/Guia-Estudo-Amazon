@@ -8,3 +8,8 @@ credenciais ou um utilitário de gerenciamento de credenciais. Dessa forma, voc�
 altere a senha, desative as credenciais do Git ou exclua as credenciais do Git no IAM.
 
 3 - Os nomes de repositórios diferenciam maiúsculas de minúsculas. O nome deve ser exclusivo na região da AWS da sua conta da AWS.
+4 - Importante
+
+Adicionar tags a um repositório pode afetar o acesso ele. Para adicionar uma tag a um repositório, revise as políticas do IAM que podem
+usar tags para controlar o acesso a recursos, como repositórios. Para obter exemplos de políticas de acesso baseadas em tags, consulte 
+
