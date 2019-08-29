@@ -1,0 +1,10 @@
+Notas:
+
+1 - No seletor de região, escolha a região da AWS onde o repositório foi criado. Os repositórios são específicos de uma região da AWS
+2 - Para clonar um repositório chamado MyDemoRepo em um repositório local chamado my-demo-repo na região Leste dos EUA (Ohio):
+    git clone https://git-codecommit.us-east-2.amazonaws.com/v1/repos/MyDemoRepo my-demo-repo
+3 - Dependendo do sistema operacional e de outros softwares, essas informações podem ser salvas para você em um armazenamento de 
+credenciais ou um utilitário de gerenciamento de credenciais. Dessa forma, você não deverá ser solicitado novamente, a menos que
+altere a senha, desative as credenciais do Git ou exclua as credenciais do Git no IAM.
+
+3 - Os nomes de repositórios diferenciam maiúsculas de minúsculas. O nome deve ser exclusivo na região da AWS da sua conta da AWS.
